@@ -4,16 +4,29 @@
     <title>iJusFruits</title>
     <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
   </head>
   <body id="homepage">
     <header id="home-header">Header</header>
     <ul id="navbar">
-      <li class="navbar-options">Home</li>
-      <li class="navbar-options">Fruits</li>
-      <li class="navbar-options">Vegetables</li>
-      <li class="navbar-options">Gift Box & Baskets</li>
-      <li class="navbar-options">About Us</li>
-      <li class="navbar-options">Contact Us</li>
+      <li class="navbar-options"><a href="#homepage">Home</a></li>
+      <li class="navbar-options"><a href="fruits.html">Fruits</a></li>
+      <li class="navbar-options"><a href="vegetables.html">Vegetables</a></li>
+      <li class="navbar-options"><a href="gift_box.html">Gift Box & Baskets</a></li>
+      <li class="navbar-options">
+        <select name="about-us" id="about-us">
+          <option value="about-us">About Us</option>
+          <option value="refund-policy">Refund Policy</option>
+          <option value="privacy-policy">Privacy Policy</option>
+          <option value="terms-of-service">Terms of Service</option>
+        </select>
+      </li>
+      <li class="navbar-options">
+        <select name="contact-us" id="contact-us">
+          <option value="contact-us">Contact Us</option>
+          <option value="faq">FAQ</option>
+        </select>
+      </li>
     </ul>
     <div id="home-content">Description</div>
     <div id="customer-reviews">Customer Reviews</div>
