@@ -1,3 +1,12 @@
+#homepage {
+    margin: 0;
+    padding: 0;
+}
+
+#header {
+    background-color: aquamarine;
+}
+
 .navbar {
     list-style-type: none;
     margin: 0;
@@ -7,7 +16,7 @@
   }
   
 .navbar-options {
-    float: left;
+    display: inline-block;
 }
   
 .navbar-options a, .active a {
@@ -29,4 +38,29 @@
 .active {
     float: left;
     background-color: #04AA6D;
+}
+
+#customer-reviews {
+    text-align: center;
+    font-family: Garamond, serif;
+    font-size: 1.875em;
+}
+
+#footer {
+    background-color: #343434;
+    width: 100%;
+    padding-bottom: 10px;
+    bottom:0px;
+}
+
+#footer img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+#disclaimer {
+    text-align: center;
+    color: white;
 }
