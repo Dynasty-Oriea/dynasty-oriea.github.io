@@ -119,6 +119,18 @@
     font-size: 1.875em;
 }
 
+/*Fruits*/
+
+#fruits-content h1 {
+    text-align: center;
+}
+
+/*Vegetables*/
+
+#vegetables-content h1 {
+    text-align: center;
+}
+
 /*Gift Box & Baskets*/
 
 #gift-content h1 {
