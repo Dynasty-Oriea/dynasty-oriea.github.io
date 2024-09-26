@@ -1,50 +1,51 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>iJusFruits</title>
-        <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="styles.css">
-    </head>
-    <body>
-        <ul class="navbar">
-            <li class="navbar-options, active"><a href="index.html">Home</a></li>
-            <li class="navbar-options"><a href="fruits.html">Fruits</a></li>
-            <li class="navbar-options"><a href="vegetables.html">Vegetables</a></li>
-            <li class="navbar-options"><a href="gift_box.html">Gift Box & Baskets</a></li>
-            <li class="navbar-options">
-              <select name="about-us">
-                <option value="about-us">About Us</option>
-                <option value="refund-policy">Refund Policy</option>
-                <option value="privacy-policy">Privacy Policy</option>
-                <option value="terms-of-service">Terms of Service</option>
-              </select>
-            </li>
-            <li class="navbar-options">
-              <select name="contact-us">
-                <option value="contact-us">Contact Us</option>
-                <option value="faq">FAQ</option>
-              </select>
-            </li>
-          </ul>
-        <div><h2>Fruits</h2></div>
-        <div>
-            <h3>Apples, Pears & Berries</h3>
-            <p>
-                Placeholder
-            </p>
+  <head>
+    <title>iJusFruits</title>
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body class="homepage">
+    <header class="header">
+      <img class="header-logo" src="images/logo.png" alt="logo" style="width:100px;height:100px;">
+    </header>
+    <ul class="navbar">
+      <li class="navbar-options"><a href="index.html">Home</a></li>
+      <li class="navbar-options, active"><a href="fruits.html">Fruits</a></li>
+      <li class="navbar-options"><a href="vegetables.html">Vegetables</a></li>
+      <li class="navbar-options"><a href="gift_box.html">Gift Box & Baskets</a></li>
+      <li class="dropdown">
+        <button class="drop-button"><a href="about.html">About Us</a></button>
+        <div class="dropdown-content">
+          <a href="refund.html">Refund Policy</a>
+          <a href="privacy.html">Privacy Policy</a>
+          <a href="terms.html">Terms of Service</a>
         </div>
-        <div>
-            <h3>Grapes & Mango</h3>
+      </li>
+      <li class="dropdown">
+        <button class="drop-button"><a href="contact.html">Contact Us</a></button>
+        <div class="dropdown-content">
+          <a href="faq.html">FAQ</a>
         </div>
-        <div>
-            <h3>Melon & Citrus</h3>
-        </div>
-        <div>
-            <h3>Local Fruits</h3>
-        </div>
-        <div>
-            <h3>Special Fruits</h3>
-        </div>
-    </body>
+      </li>
+    </ul>
+    <hr>
+    <div id="fruits-content">
+      <h1><b>Apples, Pears & Berries</b></h1>
+      <hr>
+      <h1><b>Grapes & Mango</b></h1>
+      <hr>
+      <h1><b>Melon and Citrus</b></h1>
+      <hr>
+      <h1><b>Local Fruits</b></h1>
+      <hr>
+      <h1><b>Special Fruits</b></h1>
+    </div>
+    <hr>
+    <footer class="footer">
+      <img class="footer-logo" src="images/logo.png" alt="logo" style="width:100px;height:auto;">
+      <div class="disclaimer">2021 © iJus Fruits Sdn Bhd 202101032595 (1432895-K)</div>
+    </footer>
+  </body>
 </html>

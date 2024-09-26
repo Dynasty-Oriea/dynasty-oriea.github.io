@@ -1,20 +1,52 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>iJusFruits</title>
-        <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    </head>
-    <body>
-        <div><h2>About Us</h2></div>
-        <div>
-            <p>
-                Selling fruits is our family-run business. 
-                We have over 40 years of experience in supplying the very best fresh fruits and vegetables to households and businesses. 
-                We always make sure our customers receive the freshest and highest quality products and we also sell many different varieties to cater for everyone’s taste. 
-                We pride ourselves in offering a first class service to all our customers no matter how large or small. 
-                Lastly, we also ensure timely deliveries so that our fruits and vegetables are fresh when received by customers.
-            </p>
+  <head>
+    <title>iJusFruits</title>
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body class="homepage">
+    <header class="header">
+      <img class="header-logo" src="images/logo.png" alt="logo" style="width:100px;height:100px;">
+    </header>
+    <ul class="navbar">
+      <li class="navbar-options"><a href="index.html">Home</a></li>
+      <li class="navbar-options"><a href="fruits.html">Fruits</a></li>
+      <li class="navbar-options"><a href="vegetables.html">Vegetables</a></li>
+      <li class="navbar-options"><a href="gift_box.html">Gift Box & Baskets</a></li>
+      <li class="dropdown">
+        <button class="drop-button, active"><a href="about.html">About Us</a></button>
+        <div class="dropdown-content">
+          <a href="refund.html">Refund Policy</a>
+          <a href="privacy.html">Privacy Policy</a>
+          <a href="terms.html">Terms of Service</a>
         </div>
-    </body>
+      </li>
+      <li class="dropdown">
+        <button class="drop-button"><a href="contact.html">Contact Us</a></button>
+        <div class="dropdown-content">
+          <a href="faq.html">FAQ</a>
+        </div>
+      </li>
+    </ul>
+    <hr>
+    <div id="about-content">
+      <div id="about-title"><b>About Us</b></div>
+      <div id="about-text">
+        <p>
+          Selling fruits is our family-run business.
+          We have over 40 years of experience in supplying the very best fresh fruits and vegetables to households and businesses.
+          We always make sure our customers receive the freshest and highest quality products and we also sell many different varieties to cater for everyone’s taste.
+          We pride ourselves in offering a first class service to all our customers no matter how large or small.
+          Lastly, we also ensure timely deliveries so that our fruits and vegetables are fresh when received by customers.
+        </p>
+      </div>
+    </div>
+    <hr>
+    <footer class="footer">
+      <img class="footer-logo" src="images/logo.png" alt="logo" style="width:100px;height:auto;">
+      <div class="disclaimer">2021 © iJus Fruits Sdn Bhd 202101032595 (1432895-K)</div>
+    </footer>
+  </body>
 </html>
