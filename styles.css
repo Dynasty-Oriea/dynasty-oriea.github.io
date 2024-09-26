@@ -119,6 +119,20 @@
     font-size: 1.875em;
 }
 
+/*Gift Box & Baskets*/
+
+#gift-content h1 {
+    text-align: center;
+}
+
+#gift-box {
+    margin-left: 20%;
+}
+
+#gift-basket {
+    margin-left: 20%;
+}
+
 /*About Us*/
 
 #about-content #about-title {
