@@ -10,6 +10,13 @@
     background-image: linear-gradient(315deg, #9cdaf8 0%, #98fcbd 74%);
 }
 
+.icons {
+    float: inline-end;
+    padding-top: 3%;
+    padding-right: 5%;
+    padding-bottom: 2%;
+}
+
 .navbar {
     list-style-type: none;
     margin: 0;
