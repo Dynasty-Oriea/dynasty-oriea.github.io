@@ -100,16 +100,19 @@
 }
 
 .footer {
-    background-color: #343434;
+    background-color: #9cb071;
+    text-align: center;
     width: 100%;
     padding-bottom: 0.6250em;
     bottom:0px;
 }
 
-.footer img {
-    display: block;
+.footer-payment {
+    display: inline-block;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 1%;
+    margin-bottom: 1%;
     width: 50%;
 }
 
